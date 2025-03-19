@@ -1,0 +1,23 @@
+{
+  "name": "supabase-mcp",
+  "version": "1.0.0",
+  "description": "MCP integration for Supabase providing authentication, database operations, storage, realtime subscriptions, and edge functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "supabase",
+    "mcp",
+    "authentication",
+    "database",
+    "storage",
+    "realtime",
+    "edge-functions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3"
+  }
+}
