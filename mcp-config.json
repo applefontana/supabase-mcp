@@ -1,0 +1,30 @@
+{
+  "name": "supabase",
+  "displayName": "Supabase",
+  "description": "Supabase integration for authentication, database, storage, realtime, and edge functions",
+  "version": "1.0.0",
+  "icon": "https://supabase.com/favicon/favicon-32x32.png",
+  "authType": "apiKey",
+  "endpoints": [
+    {
+      "path": "/auth",
+      "methods": ["POST", "GET", "DELETE"]
+    },
+    {
+      "path": "/database",
+      "methods": ["GET", "POST", "PUT", "DELETE"]
+    },
+    {
+      "path": "/storage",
+      "methods": ["GET", "POST", "PUT", "DELETE"]
+    },
+    {
+      "path": "/realtime",
+      "methods": ["POST", "DELETE"]
+    },
+    {
+      "path": "/functions",
+      "methods": ["POST"]
+    }
+  ]
+}
